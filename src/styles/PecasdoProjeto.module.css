@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+.desktop{
+  .index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .pecasdo_projeto_wrapper {
+    background-color: #ffffff;
+    height: 3194px;
+    width: 1440px;
+  }
+  
+  .index .pecasdo_projeto {
+    background-color: #ffffff;
+    height: 3194px;
+    position: relative;
+  }
+  
+  .index .text_wrapper {
+    color: #5483bf;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 35px;
+    font-weight: 400;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 52px;
+    width: 193px;
+  }
+  
+  .index .icone_pyro_bot {
+    height: 100px;
+    left: 25px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 101px;
+  }
+  
+  .index .overlap_group {
+    background-color: #2949a6;
+    height: 3074px;
+    left: 0;
+    position: absolute;
+    top: 120px;
+    width: 1440px;
+  }
+  
+  .index .div {
+    color: #ffffff;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 45px;
+    font-weight: 400;
+    left: 487px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 105px;
+    width: 466px;
+  }
+  
+  .index .overlap {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 80px;
+    position: absolute;
+    top: 273px;
+    width: 350px;
+  }
+  
+  .index .buzzer {
+    height: 318px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 256px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_2 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 545px;
+    position: absolute;
+    top: 273px;
+    width: 350px;
+  }
+  
+  .index .text_wrapper_3 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 381px;
+    white-space: nowrap;
+    width: 175px;
+  }
+  
+  .index .img {
+    height: 310px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 257px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_3 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 1010px;
+    position: absolute;
+    top: 273px;
+    width: 350px;
+  }
+  
+  .index .img_2 {
+    height: 312px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 257px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_4 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 79px;
+    position: absolute;
+    top: 825px;
+    width: 350px;
+  }
+  
+  .index .img_3 {
+    height: 310px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 256px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_5 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 544px;
+    position: absolute;
+    top: 825px;
+    width: 350px;
+  }
+  
+  .index .overlap_6 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 1009px;
+    position: absolute;
+    top: 825px;
+    width: 350px;
+  }
+  
+  .index .jumperf {
+    height: 308px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 255px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_7 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 79px;
+    position: absolute;
+    top: 1377px;
+    width: 350px;
+  }
+  
+  .index .protoboard {
+    height: 312px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 267px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_8 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 544px;
+    position: absolute;
+    top: 1377px;
+    width: 350px;
+  }
+  
+  .index .text_wrapper_4 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 94px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 381px;
+    white-space: nowrap;
+    width: 182px;
+  }
+  
+  .index .modulomp {
+    height: 316px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 257px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_9 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 1009px;
+    position: absolute;
+    top: 1377px;
+    width: 350px;
+  }
+  
+  .index .altomegafodase {
+    height: 311px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 255px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_10 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 78px;
+    position: absolute;
+    top: 1929px;
+    width: 350px;
+  }
+  
+  .index .img_4 {
+    height: 312px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 256px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_11 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 543px;
+    position: absolute;
+    top: 1929px;
+    width: 350px;
+  }
+  
+  .index .text_wrapper_2 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 94px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 381px;
+    white-space: nowrap;
+    width: 162px;
+  }
+
+  .index .resistor {
+    height: 312px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px;
+    width: 256px;
+    border-radius: 20px;
+  }
+
+  .index .overlap_12 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 1008px;
+    position: absolute;
+    top: 1929px;
+    width: 350px;
+  }
+  
+  .index .text_wrapper_5 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 94px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 381px;
+    white-space: nowrap;
+    width: 179px;
+  }
+  
+  .index .botao{
+      height: 312px;
+      left: 46px;
+      object-fit: cover;
+      position: absolute;
+      top: 43px;
+      width: 256px;
+      border-radius: 20px;
+  }
+  .index .overlap_13 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 462px;
+    left: 77px;
+    position: absolute;
+    top: 2481px;
+    width: 350px;
+  }
+  
+  .index .text_wrapper_6 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 53px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 381px;
+    white-space: nowrap;
+    width: 264px;
+  }
+  
+  
+  
+}
+
+.mobile{
+  
+  .index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .pecasdo_projeto_wrapper {
+    background-color: #ffffff;
+    height: 810px;
+    width: 375px;
+  }
+  
+  .index .pecasdo_projeto {
+    background-color: #ffffff;
+    height: 810px;
+    position: relative;
+  }
+  
+  .index .text_wrapper {
+    color: #5483bf;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 80px;
+  }
+  
+  .index .overlap_group {
+    background-color: #2949a6;
+    height: 763px;
+    left: 0;
+    position: absolute;
+    top: 47px;
+    width: 375px;
+  }
+  
+  .index .div {
+    color: #ffffff;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    width: 152px;
+  }
+  
+  .index .overlap {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 30px;
+    position: absolute;
+    top: 91px;
+    width: 86px;
+  }
+  
+  .index .text_wrapper_2 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 40px;
+  }
+  
+  .index .buzzer {
+    height: 78px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 64px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_2 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 145px;
+    position: absolute;
+    top: 91px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_3 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 64px;
+  }
+  
+  .index .img {
+    height: 76px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 64px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_3 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 260px;
+    position: absolute;
+    top: 91px;
+    width: 87px;
+  }
+  
+  .index .img_2 {
+    height: 76px;
+    left: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 63px;
+    border-radius: 20px;
+  }
+  
+  .index .text_wrapper_4 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 47px;
+  }
+  
+  .index .overlap_4 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 112px;
+    left: 29px;
+    position: absolute;
+    top: 226px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_5 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 40px;
+  }
+  
+  .index .overlap_5 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 112px;
+    left: 145px;
+    position: absolute;
+    top: 226px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_6 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 47px;
+  }
+  
+  .index .overlap_6 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 112px;
+    left: 260px;
+    position: absolute;
+    top: 226px;
+    width: 87px;
+  }
+  
+  .index .jumperf {
+    height: 75px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 63px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_7 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 29px;
+    position: absolute;
+    top: 360px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_7 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 58px;
+  }
+  
+  .index .protoboard {
+    height: 76px;
+    left: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 66px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_8 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 145px;
+    position: absolute;
+    top: 360px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_8 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 67px;
+  }
+  
+  .index .modulomp {
+    height: 77px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 64px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_9 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 260px;
+    position: absolute;
+    top: 360px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_9 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 59px;
+  }
+  
+  .index .altomegafodase {
+    height: 75px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 63px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_10 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 112px;
+    left: 29px;
+    position: absolute;
+    top: 495px;
+    width: 87px;
+  }
+  
+  .index .overlap_11 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 112px;
+    left: 144px;
+    position: absolute;
+    top: 495px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_10 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 45px;
+  }
+  
+  .index .resistor {
+    height: 76px;
+    left: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 64px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_12 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 112px;
+    left: 260px;
+    position: absolute;
+    top: 495px;
+    width: 87px;
+  }
+  
+  .index .text_wrapper_11 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 92px;
+    white-space: nowrap;
+    width: 66px;
+  }
+  
+  .index .botao {
+    height: 76px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 63px;
+    border-radius: 20px;
+  }
+  
+  .index .overlap_13 {
+    height: 113px;
+    left: 29px;
+    position: absolute;
+    top: 629px;
+    width: 99px;
+  }
+  
+  .index .rectangle {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 87px;
+  }
+  
+  .index .overlap_13 {
+    background-color: #73b2d9bf;
+    border-radius: 20px;
+    height: 113px;
+    left: 29px;
+    position: absolute;
+    top: 629px;
+    width: 87px;
+  }
+
+  .index .text_wrapper_12 {
+    color: #000000;
+  font-family: "Dela Gothic One", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 86px;
+  width: 85px;
+  }
+  
+  .index .modulobluetooth {
+    height: 76px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 63px;
+  border-radius: 20px;
+  }
+  
+  .index .icone_pyro_bot {
+    height: 33px;
+    left: 9px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 29px;
+  }
+  
+
+}
+
+
+
+@media (min-width: 801px) {
+  .mobile{
+    display:none;
+  }
+}
+
+@media (max-width: 800px) {
+  .desktop{
+    display:none;
+  }
+}
