@@ -135,7 +135,7 @@
 
 
 .mobile{
-  .index {
+  .pyro_bot {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -143,15 +143,14 @@
     width: 100%;
   }
   
-  .index .div {
+  .pyro_bot .div {
     background-color: #ffffff;
-    height: 556px;
-    overflow: hidden;
+    height: 810px;
     position: relative;
     width: 375px;
   }
   
-  .index .text_wrapper {
+  .pyro_bot .text_wrapper {
     color: #5483bf;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
@@ -164,84 +163,83 @@
     width: 80px;
   }
   
-  .index .overlap_group {
+  .pyro_bot .overlap_group {
     background-color: #73b2d9bf;
-    height: 534px;
+    background-size: 100% 100%;
+    height: 762px;
     left: 0;
     position: absolute;
-    top: 50px;
+    top: 48px;
     width: 375px;
   }
   
-  .index .overlap {
+  .pyro_bot .overlap {
     background-color: #2949a687;
     border-radius: 30px;
-    height: 159px;
-    left: 9px;
+    height: 266px;
+    left: 24px;
     position: absolute;
-    top: 45px;
-    width: 168px;
+    top: 252px;
+    width: 328px;
   }
   
-  .index .image {
-    height: 134px;
-    left: 11px;
+  .pyro_bot .image {
+    height: 225px;
+    left: 21px;
     object-fit: cover;
     position: absolute;
-    top: 9px;
-    width: 147px;
+    top: 15px;
+    width: 288px;
     border-radius: 20px;
   }
   
-  .index .div_wrapper {
+  .pyro_bot .div_wrapper {
     background-color: #2949a687;
     border-radius: 20px;
-    height: 262px;
-    left: 202px;
+    height: 157px;
+    left: 23px;
     position: absolute;
-    top: 45px;
-    width: 153px;
+    top: 569px;
+    width: 329px;
   }
   
-  .index .p {
+  .pyro_bot .p {
     color: #000000;
     font-family: "Dela Gothic One", Helvetica;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
-    left: 24px;
+    left: 14px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
-    /* width: 107px; */
-    width: 117px;
-    height: 241px;
+    top: 12px;
+    width: 301px;
   }
   
-  .index .overlap_2 {
+  .pyro_bot .overlap_2 {
     background-color: #2949a687;
     border-radius: 20px;
-    height: 220px;
-    left: 20px;
+    height: 157px;
+    left: 23px;
     position: absolute;
-    top: 251px;
-    width: 157px;
+    top: 52px;
+    width: 329px;
   }
   
-  .index .text_wrapper_2 {
+  .pyro_bot .text_wrapper_2 {
     color: #000000;
     font-family: "Dela Gothic One", Helvetica;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     left: 18px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
-    width: 134px;
+    top: 22px;
+    width: 297px;
   }
   
-  .index .icone_pyro_bot {
+  .pyro_bot .icone_pyro_bot {
     height: 33px;
     left: 9px;
     object-fit: cover;

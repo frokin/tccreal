@@ -139,7 +139,7 @@
   
   .index .div {
     background-color: #ffffff;
-    height: 782px;
+    height: 1011px;
     position: relative;
     width: 375px;
   }
@@ -159,7 +159,7 @@
   
   .index .overlap_group {
     background-color: #2949a6;
-    height: 735px;
+    height: 964px;
     left: 0;
     position: absolute;
     top: 47px;
@@ -179,60 +179,60 @@
   }
   
   .index .sofia {
-    height: 97px;
-    left: 147px;
+    height: 152px;
+    left: 120px;
     object-fit: cover;
     position: absolute;
-    top: 90px;
-    width: 82px;
+    top: 93px;
+    width: 136px;
     border-radius: 20px;
   }
   
   .index .iconeinsta {
-    height: 45px;
-    left: 160px;
+    height: 71px;
+    left: 142px;
     object-fit: cover;
     position: absolute;
-    top: 203px;
-    width: 55px;
+    top: 270px;
+    width: 91px;
   }
   
   .index .iza {
-    height: 97px;
-    left: 147px;
+    height: 152px;
+    left: 125px;
     object-fit: cover;
     position: absolute;
-    top: 318px;
-    width: 82px;
+    top: 381px;
+    width: 136px;
     border-radius: 20px;
   }
   
   .index .img {
-    height: 45px;
-    left: 160px;
+    height: 71px;
+    left: 146px;
     object-fit: cover;
     position: absolute;
-    top: 431px;
-    width: 55px;
+    top: 550px;
+    width: 91px;
   }
   
   .index .andre {
-    height: 97px;
-    left: 147px;
+    height: 152px;
+    left: 123px;
     object-fit: cover;
     position: absolute;
-    top: 546px;
-    width: 82px;
+    top: 661px;
+    width: 136px;
     border-radius: 20px;
   }
   
   .index .iconeinsta_2 {
-    height: 45px;
-    left: 160px;
+    height: 71px;
+    left: 145px;
     object-fit: cover;
     position: absolute;
-    top: 659px;
-    width: 55px;
+    top: 851px;
+    width: 91px;
   }
   
   .index .icone_pyro_bot {

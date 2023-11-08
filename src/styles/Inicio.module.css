@@ -241,7 +241,7 @@
 
 
 .mobile{
-  .index {
+  .inicio {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -249,14 +249,14 @@
     width: 100%;
   }
   
-  .index .div {
+  .inicio .div {
     background-color: #ffffff;
-    height: 584px;
+    height: 810px;
     position: relative;
     width: 375px;
   }
   
-  .index .text_wrapper {
+  .inicio .text_wrapper {
     color: #5483bf;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
@@ -269,196 +269,72 @@
     width: 80px;
   }
   
-  .index .overlap_group {
+  .inicio .overlap {
     background-color: #2949a6;
-    height: 534px;
+    height: 633px;
     left: 0;
     position: absolute;
     top: 50px;
     width: 375px;
   }
   
-  .index .text_wrapper_2 {
+  .inicio .text_wrapper_2 {
     color: #ffffff;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
     font-weight: 400;
-    left: 24px;
+    left: 25px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 44px;
+    top: 65px;
     width: 133px;
   }
   
-  .index .overlap {
-    height: 430px;
-    left: 0;
+  .inicio .overlap_group {
+    height: 323px;
+    left: 25px;
     position: absolute;
-    top: 104px;
-    width: 375px;
+    top: 310px;
+    width: 350px;
   }
   
-  .index .p {
+  .inicio .p {
     color: #ffffff;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
     font-weight: 400;
-    left: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 133px;
-    width: 234px;
-  }
-  
-  .index .rectangle {
-    background-color: #73b2d9bf;
-    height: 127px;
     left: 0;
-    position: absolute;
-    top: 303px;
-    width: 375px;
-  }
-  
-  .index .rectangle_2 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 24px;
-    position: absolute;
-    top: 321px;
-    width: 94px;
-  }
-  
-  .index .rectangle_3 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 24px;
-    position: absolute;
-    top: 366px;
-    width: 94px;
-  }
-  
-  .index .rectangle_4 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 141px;
-    position: absolute;
-    top: 366px;
-    width: 94px;
-  }
-  
-  .index .rectangle_5 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 141px;
-    position: absolute;
-    top: 321px;
-    width: 94px;
-  }
-  
-  .index .rectangle_6 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 258px;
-    position: absolute;
-    top: 321px;
-    width: 94px;
-  }
-  
-  .index .text_wrapper_3 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 44px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 328px;
-    width: 53px;
-  }
-  
-  .index .quem_somos {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 153px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 328px;
-    width: 85px;
-  }
-  
-  .index .text_wrapper_4 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 264px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 328px;
-    width: 82px;
-  }
-  
-  .index .text_wrapper_5 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 50px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 373px;
-    width: 41px;
-  }
-  
-  .index .text_wrapper_6 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 159px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 373px;
-    width: 57px;
-  }
-  
-  .index .text_wrapper_7 {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 23px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 0;
+    width: 234px;
+  }
+  
+  .inicio .garotodeprograma {
+    height: 317px;
+    left: 72px;
+    object-fit: cover;
+    position: absolute;
+    top: 6px;
+    width: 278px;
+  }
+  
+  .inicio .text_wrapper_3 {
+    color: #ffffff;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 125px;
     width: 270px;
   }
   
-  .index .garotodeprograma {
-    height: 241px;
-    left: 160px;
-    object-fit: cover;
-    position: absolute;
-    top: 63px;
-    width: 215px;
-  }
-  
-  .index .icone_pyro_bot {
+  .inicio .icone_pyro_bot {
     height: 33px;
     left: 9px;
     object-fit: cover;
@@ -466,16 +342,137 @@
     top: 3px;
     width: 29px;
   }
-
-  .overlap_group a {
-    text-decoration: none;
+  
+  .inicio .overlap_group_2 {
+    background-color: #73b2d9bf;
+    height: 127px;
+    left: 0;
+    position: absolute;
+    top: 683px;
+    width: 375px;
+  }
+  
+  .inicio .div_wrapper {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 27px;
+    left: 24px;
+    position: absolute;
+    top: 18px;
+    width: 94px;
+  }
+  
+  .inicio .text_wrapper_4 {
     color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
     font-size: 8px;
-    font-style: 64px;
     font-weight: 400;
-    white-space: nowrap;
-    
-    /* by ajudinha do meubblinduuuuuuu/derick dnovo kk  */
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 53px;
+  }
+  
+  .inicio .overlap_2 {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 27px;
+    left: 24px;
+    position: absolute;
+    top: 63px;
+    width: 94px;
+  }
+  
+  .inicio .text_wrapper_5 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 41px;
+  }
+  
+  .inicio .overlap_3 {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 27px;
+    left: 141px;
+    position: absolute;
+    top: 63px;
+    width: 94px;
+  }
+  
+  .inicio .text_wrapper_6 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 57px;
+  }
+  
+  .inicio .overlap_4 {
+    height: 27px;
+    left: 141px;
+    position: absolute;
+    top: 18px;
+    width: 97px;
+  }
+  
+  .inicio .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 94px;
+  }
+  
+  .inicio .quem_somos {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 85px;
+  }
+  
+  .inicio .overlap_5 {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 27px;
+    left: 258px;
+    position: absolute;
+    top: 18px;
+    width: 94px;
+  }
+  
+  .inicio .text_wrapper_7 {
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 82px;
   }
 
 }

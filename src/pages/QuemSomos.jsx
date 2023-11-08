@@ -68,8 +68,8 @@ function QuemSomos () {
     </div>
         </div>
 
-        <div className={styles.mobile}>
-        <div className={styles.index}>
+      <div className={styles.mobile}>
+      <div className={styles.index}>
       <div className={styles.div}>
         <div className={styles.text_wrapper}>PyroBot</div>
         <div className={styles.overlap_group}>
@@ -103,7 +103,7 @@ function QuemSomos () {
             alt="Andre"
             src={andre}
           />
-        <a href="https://www.instagram.com/andre.ngb/"rel="noopener" >
+          <a href="https://www.instagram.com/andre.ngb/"rel="noopener" >
         <img
             className={styles.iconeinsta_2}
             alt="Iconeinsta"
@@ -120,7 +120,7 @@ function QuemSomos () {
         </Link>
       </div>
     </div>
-        </div>
+      </div>
       </div>
 
     

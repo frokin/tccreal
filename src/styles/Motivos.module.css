@@ -239,7 +239,7 @@
   
   .index .div {
     background-color: #ffffff;
-    height: 435px;
+    height: 810px;
     position: relative;
     width: 375px;
   }
@@ -259,7 +259,7 @@
   
   .index .overlap_group {
     background-color: #73b2d9bf;
-    height: 252px;
+    height: 453px;
     left: 0;
     position: absolute;
     top: 50px;
@@ -275,25 +275,25 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 37px;
+    top: 53px;
   }
   
   .index .iconezinmotivos {
-    height: 20px;
-    left: 169px;
+    height: 45px;
+    left: 159px;
     object-fit: cover;
     position: absolute;
-    top: 106px;
-    width: 19px;
+    top: 149px;
+    width: 45px;
   }
   
   .index .img {
-    height: 20px;
-    left: 273px;
+    height: 45px;
+    left: 279px;
     object-fit: cover;
     position: absolute;
-    top: 106px;
-    width: 16px;
+    top: 149px;
+    width: 35px;
   }
   
   .index .confiabilidade {
@@ -305,8 +305,8 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 131px;
-    width: 82px;
+    top: 210px;
+    width: 89px;
   }
   
   .index .resposta_r_pida {
@@ -314,27 +314,11 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 10px;
     font-weight: 400;
-    left: 255px;
+    left: 262px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 131px;
-    width: 81px;
-  }
-  
-  .index .overlap {
-    height: 133px;
-    left: 41px;
-    position: absolute;
-    top: 99px;
-    width: 88px;
-  }
-  
-  .index .overlap_2 {
-    height: 126px;
-    left: 0;
-    position: absolute;
-    top: 7px;
+    top: 210px;
     width: 88px;
   }
   
@@ -343,37 +327,37 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 10px;
     font-weight: 400;
-    left: 0;
+    left: 32px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 25px;
-    width: 87px;
+    top: 210px;
+    width: 94px;
   }
   
   .index .line {
-    height: 126px;
-    left: 86px;
+    height: 185px;
+    left: 126px;
     position: absolute;
-    top: 0;
+    top: 170px;
+    width: 3px;
+  }
+  
+  .index .line_2 {
+    height: 185px;
+    left: 239px;
+    position: absolute;
+    top: 170px;
     width: 3px;
   }
   
   .index .iconezinmotivos_2 {
-    height: 27px;
-    left: 21px;
+    height: 45px;
+    left: 48px;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    width: 24px;
-  }
-  
-  .index .line_2 {
-    height: 124px;
-    left: 230px;
-    position: absolute;
-    top: 108px;
-    width: 4px;
+    top: 149px;
+    width: 45px;
   }
   
   .index .icone_pyro_bot {
@@ -385,48 +369,56 @@
     width: 29px;
   }
   
-  .index .overlap_3 {
+  .index .overlap {
     background-color: #2949a6;
-    height: 133px;
+    height: 307px;
     left: 0;
     position: absolute;
-    top: 302px;
+    top: 503px;
     width: 375px;
+  }
+  
+  .index .overlap_2 {
+    height: 193px;
+    left: 0;
+    position: absolute;
+    top: 114px;
+    width: 375px;
+  }
+  
+  .index .programadoraxinaisa {
+    height: 192px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 1px;
+    width: 251px;
   }
   
   .index .text_wrapper_2 {
     color: #ffffff;
     font-family: "Dela Gothic One", Helvetica;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
-    left: 193px;
+    left: 140px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
-    width: 153px;
+    top: 0;
+    width: 235px;
   }
   
   .index .text_wrapper_3 {
     color: #ffffff;
     font-family: "Dela Gothic One", Helvetica;
-    font-size: 7px;
+    font-size: 18px;
     font-weight: 400;
-    left: 193px;
+    left: 100px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 67px;
-    width: 182px;
-  }
-  
-  .index .programadoraxinaisa {
-    height: 132px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 184px;
+    top: 32px;
+    width: 266px;
   }
   
 }
