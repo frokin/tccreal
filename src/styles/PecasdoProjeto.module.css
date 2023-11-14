@@ -381,26 +381,26 @@
 .mobile{
   
   .index {
-    background-color: #ffffff;
+    background-color: #2949a6;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
   }
   
-  .index .pecasdo_projeto_wrapper {
-    background-color: #ffffff;
+  /* .index .pecasdo_projeto_wrapper {
     height: 810px;
     width: 375px;
-  }
+  } */
   
   .index .pecasdo_projeto {
-    background-color: #ffffff;
     height: 810px;
     position: relative;
+    width: 375px;
+
   }
   
-  .index .text_wrapper {
+  /* .index .text_wrapper {
     color: #5483bf;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
@@ -411,13 +411,13 @@
     position: absolute;
     top: 14px;
     width: 80px;
-  }
+  } */
   
   .index .overlap_group {
     background-color: #2949a6;
     height: 763px;
     left: 0;
-    position: absolute;
+    /* position: absolute; */
     top: 47px;
     width: 375px;
   }
@@ -836,16 +836,15 @@
   border-radius: 20px;
   }
   
-  .index .icone_pyro_bot {
+  /* .index .icone_pyro_bot {
     height: 33px;
     left: 9px;
     object-fit: cover;
     position: absolute;
     top: 0;
     width: 29px;
-  }
+  } */
   
-
 }
 
 

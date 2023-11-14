@@ -1,7 +1,7 @@
 import styles from "../styles/PecasdoProjeto.module.css";
-import { Link } from "react-router-dom"
-
-import Logo from "../imgs/iconepyrobot.png"
+// import { Link } from "react-router-dom"
+import Header from "../components/Header"
+// import Logo from "../imgs/iconepyrobot.png"
 
 import buzzer from "../imgs/buzzer.jpg"
 import modulomq2 from "../imgs/modulomq2.jpg"
@@ -28,18 +28,19 @@ import modulobluetooth from "../imgs/ModuloBluetooth.jpg"
 function PecasdoProjeto() {
   return (
     <div>
+      <Header />
       <div className={styles.desktop}> 
       <div className={styles.index}>
       <div className={styles.pecasdo_projeto_wrapper}>
         <div className={styles.pecasdo_projeto}>
-          <div className={styles.text_wrapper}>PyroBot</div>
-          <Link to={"/Inicio"}>
+          {/* <div className={styles.text_wrapper}>PyroBot</div> */}
+          {/* <Link to={"/Inicio"}>
         <img
             className={styles.icone_pyro_bot}
             alt="Icones de vetor de"
             src={Logo}
           />
-        </Link>
+        </Link> */}
           <div className={styles.overlap_group}>
             <div className={styles.div}>Peças do projeto</div>
             <div className={styles.overlap}>
@@ -178,11 +179,11 @@ function PecasdoProjeto() {
     </div>
       </div>
 
-      <div className={styles.mobile}>
+      <div className={styles.mobile}  /*mobileM375*/ >
       <div className={styles.index}>
       <div className={styles.pecasdo_projeto_wrapper}>
         <div className={styles.pecasdo_projeto}>
-          <div className={styles.text_wrapper}>PyroBot</div>
+          {/* <div className={styles.text_wrapper}>PyroBot</div> */}
           <div className={styles.overlap_group}>
             <div className={styles.div}>Peças do projeto</div>
             <div className={styles.overlap}>
@@ -316,17 +317,20 @@ function PecasdoProjeto() {
         </a>
             </div>
           </div>
-          <Link to={"/Inicio"}>
+          {/* <Link to={"/Inicio"}>
         <img
           className={styles.icone_pyro_bot}
           alt="Icone pyro bot"
           src={Logo}
         />
-        </Link>
+        </Link> */}
         </div>
       </div>
     </div>
       </div>
+
+      
+
     </div>    
   );
 }

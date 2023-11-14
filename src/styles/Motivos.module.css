@@ -230,7 +230,7 @@
 
 .mobile{
   .index {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -238,13 +238,13 @@
   }
   
   .index .div {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     height: 810px;
-    position: relative;
+    /* position: relative; */
     width: 375px;
   }
   
-  .index .text_wrapper {
+  /* .index .text_wrapper {
     color: #5483bf;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
@@ -255,15 +255,16 @@
     position: absolute;
     top: 17px;
     width: 80px;
-  }
+  } */
   
   .index .overlap_group {
     background-color: #73b2d9bf;
     height: 453px;
-    left: 0;
-    position: absolute;
-    top: 50px;
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 50px; */
     width: 375px;
+    padding:15px;
   }
   
   .index .p {
@@ -271,29 +272,34 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
     font-weight: 400;
-    left: 61px;
+    text-align:center;
+    /* left: 61px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 53px;
+    /* position: absolute;
+    top: 53px; */
   }
   
   .index .iconezinmotivos {
     height: 45px;
-    left: 159px;
+    /* left: 159px; */
     object-fit: cover;
-    position: absolute;
-    top: 149px;
-    width: 45px;
+    /* position: absolute; */
+    /* top: 149px; */
+    /* width: 45px; */
+    justify-content:center;
+    display:flex;
   }
   
   .index .img {
     height: 45px;
-    left: 279px;
+    /* left: 279px; */
     object-fit: cover;
-    position: absolute;
-    top: 149px;
-    width: 35px;
+    /* position: absolute;
+    top: 149px; */
+    /* width: 35px; */
+    justify-content:center;
+    display:flex;
   }
   
   .index .confiabilidade {
@@ -301,11 +307,11 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 10px;
     font-weight: 400;
-    left: 143px;
+    /* left: 143px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 210px;
+    /* position: absolute;
+    top: 210px; */
     width: 89px;
   }
   
@@ -314,11 +320,11 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 10px;
     font-weight: 400;
-    left: 262px;
+    /* left: 262px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 210px;
+    /* position: absolute;
+    top: 210px; */
     width: 88px;
   }
   
@@ -327,84 +333,86 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 10px;
     font-weight: 400;
-    left: 32px;
+    /* left: 32px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 210px;
+    /* position: absolute;
+    top: 210px; */
     width: 94px;
   }
   
   .index .line {
     height: 185px;
-    left: 126px;
+    /* left: 126px;
     position: absolute;
-    top: 170px;
+    top: 170px; */
     width: 3px;
   }
   
   .index .line_2 {
     height: 185px;
-    left: 239px;
+    /* left: 239px;
     position: absolute;
-    top: 170px;
+    top: 170px; */
     width: 3px;
   }
   
   .index .iconezinmotivos_2 {
     height: 45px;
-    left: 48px;
+    /* left: 48px; */
     object-fit: cover;
-    position: absolute;
-    top: 149px;
-    width: 45px;
+    /* position: absolute;
+    top: 149px; */
+    /* width: 45px; */
+    justify-content:center;
+    display:flex;
   }
   
-  .index .icone_pyro_bot {
+  /* .index .icone_pyro_bot {
     height: 33px;
     left: 9px;
     object-fit: cover;
     position: absolute;
     top: 3px;
     width: 29px;
-  }
+  } */
   
   .index .overlap {
     background-color: #2949a6;
     height: 307px;
-    left: 0;
-    position: absolute;
-    top: 503px;
+    /* left: 0;
+    position: absolute; */
+    /* top: 503px; */
     width: 375px;
   }
   
   .index .overlap_2 {
     height: 193px;
-    left: 0;
+    /* left: 0;
     position: absolute;
-    top: 114px;
+    top: 114px; */
     width: 375px;
   }
   
-  .index .programadoraxinaisa {
+  /* .index .programadoraxinaisa {
     height: 192px;
     left: 0;
     object-fit: cover;
     position: absolute;
     top: 1px;
     width: 251px;
-  }
+  } */
   
   .index .text_wrapper_2 {
     color: #ffffff;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 12px;
     font-weight: 400;
-    left: 140px;
+    /* left: 140px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0; */
     width: 235px;
   }
   
@@ -413,11 +421,11 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 18px;
     font-weight: 400;
-    left: 100px;
+    /* left: 100px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 32px;
+    /* position: absolute;
+    top: 32px; */
     width: 266px;
   }
   

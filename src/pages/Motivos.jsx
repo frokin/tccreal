@@ -1,29 +1,30 @@
 import styles from "../styles/Motivos.module.css";
-import { Link } from "react-router-dom"
-
-import Logo from "../imgs/iconepyrobot.png"
+// import { Link } from "react-router-dom"
+import Header from "../components/Header"
+// import Logo from "../imgs/iconepyrobot.png"
 import iconezinmotivos1 from "../imgs/iconezinmotivos1.png"
 import iconezinmotivos2 from "../imgs/iconezinmotivos2.png"
 import iconezinmotivos3 from "../imgs/iconezinmotivos3.png"
-import programadoraxinaisa from "../imgs/programadoraxinaisa.png"
+// import programadoraxinaisa from "../imgs/programadoraxinaisa.png"
 
 function Motivos() {
   return (
     <div>
+      <Header />
       <div className={styles.desktop}>
       <div className={styles.index}>
       <div className={styles.div}>
         <div className={styles.overlap}>
-          <div className={styles.text_wrapper}>PyroBot</div>
+          {/* <div className={styles.text_wrapper}>PyroBot</div> */}
         </div>
         <div className={styles.logod}>
-        <Link to={"/Inicio"}>
+        {/* <Link to={"/Inicio"}>
         <img
             className={styles.icone_pyro_bot}
             alt="Icones de vetor de"
             src={Logo}
           />
-        </Link>
+        </Link> */}
         </div>
         <div className={styles.overlap_2}>
           <div className={styles.rectangle} />
@@ -86,10 +87,10 @@ function Motivos() {
     </div>
       </div>
 
-      <div className={styles.mobile}>
+      <div className={styles.mobile} /*mobileM375*/ >
       <div className={styles.index}>
       <div className={styles.div}>
-        <div className={styles.text_wrapper}>PyroBot</div>
+        {/* <div className={styles.text_wrapper}>PyroBot</div> */}
         <div className={styles.overlap_group}>
           <p className={styles.p}>Por que escolher o PyroBot?</p>
           <img
@@ -136,20 +137,20 @@ function Motivos() {
             src={iconezinmotivos2}
           />
         </div>
-        <Link to={"/Inicio"}>
+        {/* <Link to={"/Inicio"}>
         <img
           className={styles.icone_pyro_bot}
           alt="Icone pyro bot"
           src={Logo}
         />
-        </Link>
+        </Link> */}
         <div className={styles.overlap}>
           <div className={styles.overlap_2}>
-            <img
+            {/* <img
               className={styles.programadoraxinaisa}
               alt="Programadoraxinaisa"
               src={programadoraxinaisa}
-            />
+            /> */}
             <p className={styles.text_wrapper_2}>
               Sua tecnologia avançada de detecção de incêndios e resposta rápida garantem a máxima segurança.
             </p>
@@ -159,6 +160,11 @@ function Motivos() {
       </div>
     </div>
       </div>
+
+      
+
+     
+
     </div>
   );
 }

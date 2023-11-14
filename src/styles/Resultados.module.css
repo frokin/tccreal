@@ -3,7 +3,8 @@
 
 .desktop{
   .index {
-    background-color: #ffffff;
+    background-color: #2949a6;
+    /* background-color: #ffffff; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,10 +12,10 @@
   }
   
   .index .div {
-    background-color: #ffffff;
-    height: 3621px;
-    position: relative;
-    width: 1440px;
+    /* background-color: #ffffff; */
+    /* height: 3621px; */
+    /* position: relative; */
+    /* width: 1440px; */
   }
   
   .index .text_wrapper {
@@ -22,30 +23,37 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 35px;
     font-weight: 400;
-    left: 138px;
+    /* left: 138px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 49px;
+    /* position: absolute; */
+    /* top: 49px; */
     width: 193px;
   }
   
-  .index .icone_pyro_bot {
+  /* .index .icone_pyro_bot {
     height: 100px;
     left: 25px;
     object-fit: cover;
     position: absolute;
     top: 0;
     width: 101px;
-  }
+  } */
   
   .index .overlap_group {
     background-color: #2949a6;
     height: 3504px;
-    left: 0;
-    position: absolute;
-    top: 117px;
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 117px; */
     width: 1440px;
+    padding:35px;
+  }
+
+  .index .card_img{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
   }
   
   .index .text_wrapper_2 {
@@ -53,34 +61,37 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 45px;
     font-weight: 400;
-    left: 388px;
+    text-align:center;
+    margin: 55px 0 55px 0;
+    /* left: 388px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 103px;
+    /* position: absolute; */
+    /* top: 103px; */
   }
   
   .index .img {
-    height: 632px;
-    left: 237px;
+    height: 232px;
+    /* left: 237px; */
     object-fit: cover;
-    position: absolute;
-    top: 294px;
-    width: 962px;
+    /* position: absolute; */
+    /* top: 294px; */
+    width: 462px;
     border-radius: 30px;
+    margin-bottom:35px;
   }
   
-  .index .img_2 {
+  /* .index .img_2 {
     height: 607px;
-    left: 237px;
-    object-fit: cover;
-    position: absolute;
-    top: 1041px;
-    width: 967px;
-    border-radius: 30px;
-  }
+    /* left: 237px; */
+    /* object-fit: cover; */
+    /* position: absolute; */
+    /* top: 1041px; */
+    /* width: 967px; */
+    /* border-radius: 30px; */
+  /* } */   
   
-  .index .imgdnv {
+  /* .index .imgdnv {
     height: 607px;
     left: 237px;
     object-fit: cover;
@@ -88,24 +99,24 @@
     top: 1763px;
     width: 967px;
     border-radius: 30px;
-  }
+  } */
   
-  .index .imgcaixapintada {
+  /* .index .imgcaixapintada {
     height: 607px;
     left: 237px;
     position: absolute;
     top: 2485px;
     width: 967px;
     border-radius: 30px;
-  }
+  } */
   
   .index .overlap {
     background-color: #73b2d9bf;
     border-radius: 30px;
     height: 217px;
-    left: 237px;
-    position: absolute;
-    top: 3207px;
+    /* left: 237px; */
+    /* position: absolute; */
+    /* top: 3207px; */
     width: 967px;
   }
   
@@ -114,11 +125,11 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 65px;
     font-weight: 400;
-    left: 348px;
+    /* left: 348px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 61px;
+    /* position: absolute; */
+    /* top: 61px; */
   }
   
   
@@ -127,7 +138,7 @@
 
 .mobile{
   .index {
-    background-color: #ffffff;
+    background-color: #2949a6;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -137,11 +148,11 @@
   .index .div {
     background-color: #ffffff;
     height: 1155px;
-    position: relative;
+    /* position: relative; */
     width: 375px;
   }
   
-  .index .text_wrapper {
+  /* .index .text_wrapper {
     color: #5483bf;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
@@ -152,14 +163,14 @@
     position: absolute;
     top: 14px;
     width: 80px;
-  }
+  } */
   
   .index .overlap_group {
     background-color: #2949a6;
-    height: 1108px;
-    left: 0;
-    position: absolute;
-    top: 47px;
+    height: 100%;
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 47px; */
     width: 375px;
   }
   
@@ -168,47 +179,47 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 15px;
     font-weight: 400;
-    left: 85px;
+    /* left: 85px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 43px;
+    /* position: absolute; */
+    /* top: 43px; */
   }
   
   .index .img {
     height: 163px;
-    left: 59px;
+    /* left: 59px; */
     object-fit: cover;
-    position: absolute;
-    top: 119px;
+    /* position: absolute; */
+    /* top: 119px; */
     width: 258px;
     border-radius: 30px;
   }
   
   .index .img_2 {
     height: 163px;
-    left: 59px;
+    /* left: 59px; */
     object-fit: cover;
-    position: absolute;
-    top: 335px;
+    /* position: absolute; */
+    /* top: 335px; */
     width: 258px;
     border-radius: 30px;
   }
   
   .index .imgdnv {
     height: 163px;
-    left: 59px;
+    /* left: 59px; */
     object-fit: cover;
-    position: absolute;
-    top: 551px;
+    /* position: absolute; */
+    /* top: 551px; */
     width: 258px;
     border-radius: 30px;
   }
   
   .index .imgcaixapintada {
-    left: 59px;
-    position: absolute;
-    top: 767px;
+    /* left: 59px; */
+    /* position: absolute; */
+    /* top: 767px; */
     border-radius: 30px;
     width:  258px;
     height: 163px ;
@@ -218,9 +229,9 @@
     background-color: #73b2d9bf;
     border-radius: 30px;
     height: 95px;
-    left: 59px;
-    position: absolute;
-    top: 983px;
+    /* left: 59px; */
+    /* position: absolute; */
+    /* top: 983px; */
     width: 258px;
   }
   
@@ -229,21 +240,21 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 25px;
     font-weight: 400;
-    left: 77px;
+    /* left: 77px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 28px;
+    /* position: absolute; */
+    /* top: 28px; */
   }
   
-  .index .icone_pyro_bot {
+  /* .index .icone_pyro_bot {
     height: 33px;
     left: 9px;
     object-fit: cover;
     position: absolute;
     top: 0;
     width: 29px;
-  }
+  } */
   
   
 }

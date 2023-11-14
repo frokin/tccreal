@@ -2,86 +2,56 @@
 
 .desktop{
   .index {
-    background-color: #ffffff;
+    background-color: #2949a6;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
+    height: 1047px;
   }
   
   .index .div {
-    background-color: #ffffff;
-    height: 1024px;
-    position: relative;
-    width: 1440px;
+    /* background-color: #ffffff; */
+    /* height: 100vh; */
+    /* position: relative; */
+    /* width: 100%; */
+    /* background-color: #2949a6; */
   }
   
-  .index .text_wrapper {
-    color: #5483bf;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 35px;
-    font-weight: 400;
-    left: 138px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 52px;
-    width: 193px;
-    
-  }
-  
-  .index .icone_pyro_bot {
-    height: 100px;
-    left: 25px;
-    object-fit: cover;
-    position: absolute;
-    top: 3px;
-    width: 101px;
-  }
   
   .index .overlap_group {
-    background-color: #2949a6;
-    height: 904px;
-    left: 0;
+    /* background-color: #2949a6; */
+    /* height: 904px; */
+    /* left: 0;
     position: absolute;
-    top: 120px;
-    width: 1440px;
-  }
-  
-  .index .logod {
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 100px;
-    left: 25px;
-    position: absolute;
-    top: 0;
-    width: 101px;
+    top: 120px; */
+    /* width: 1440px; */
   }
   
   .index .iconeinsta {
     height: 124px;
-    left: 641px;
+    /* left: 641px; */
     object-fit: cover;
-    position: absolute;
-    top: 721px;
+    /* position: absolute; */
+    /* top: 721px; */
     width: 157px;
   }
   
   .index .img {
     height: 124px;
-    left: 166px;
+    /* left: 166px; */
     object-fit: cover;
-    position: absolute;
-    top: 721px;
+    /* position: absolute; */
+    /* top: 721px; */
     width: 157px;
   }
   
   .index .iconeinsta_2 {
     height: 124px;
-    left: 1116px;
+    /* left: 1116px; */
     object-fit: cover;
-    position: absolute;
-    top: 721px;
+    /* position: absolute; */
+    /* top: 721px; */
     width: 157px;
   }
   
@@ -90,171 +60,150 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 45px;
     font-weight: 400;
-    left: 530px;
-    letter-spacing: 0;
+    /* left: 530px; */
+    /* letter-spacing: 1;  */
     line-height: normal;
-    position: absolute;
-    top: 74px;
+    text-align:center;
+    padding:20px;
+    margin-bottom:70px;
+    margin-top: 110px;
+    /* position: absolute; */
+    /* top: 74px; */
   }
   
   .index .sofia {
-    height: 429px;
-    left: 76px;
+    height: 329px;
+    width: 237px;
+    /* left: 76px; */
     object-fit: cover;
-    position: absolute;
-    top: 237px;
-    width: 337px;
+    /* position: absolute; */
+    /* top: 237px; */
+
     border-radius: 40px;
+    /* margin-left: 60px; */
   }
   
+  .index .imgsdenois{
+      justify-content:center;
+      display:flex;
+      gap: 8rem;
+      margin-inline: auto;
+      margin-bottom: 55px;
+  }
+
+  .index .instaaa{
+    justify-content:center;
+      display:flex;
+      margin:25px;
+      /* padding-right: 645px; */
+  }
+
   .index .iza {
-    height: 429px;
-    left: 551px;
+    height: 329px;
+    width: 237px;
+    /* left: 551px; */
     object-fit: cover;
-    position: absolute;
-    top: 237px;
-    width: 337px;
+    /* position: absolute; */
+    /* top: 237px; */
     border-radius: 40px;
   }
   
   .index .andre {
-    height: 429px;
-    left: 1026px;
+    height: 329px;
+    width: 237px;
+    /* left: 1026px; */
     object-fit: cover;
-    position: absolute;
-    top: 237px;
-    width: 337px;
-    border-radius: 40px;
+    /* position: absolute; */
+    /* top: 237px; */
+    border-radius: 40px;;
   }
-}
+  .index button{
+    background-color: transparent;
+    outiline: none;
+    border: none;
+  }
 
-.mobile{
-  .index {
-    background-color: #ffffff;
+  .index .botao {
+    width: 48px;
+    height: auto; 
+  }
+  .index .containers{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+    width: 337px;
   }
-  
-  .index .div {
-    background-color: #ffffff;
-    height: 1011px;
-    position: relative;
-    width: 375px;
+
+  .containers h4{
+    margin-top: auto;
+    font-size: 24px;
   }
-  
-  .index .text_wrapper {
-    color: #5483bf;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 41px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 14px;
-    width: 80px;
-  }
-  
-  .index .overlap_group {
-    background-color: #2949a6;
-    height: 964px;
-    left: 0;
-    position: absolute;
-    top: 47px;
-    width: 375px;
-  }
-  
-  .index .text_wrapper_2 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 124px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 30px;
-  }
-  
-  .index .sofia {
-    height: 152px;
-    left: 120px;
-    object-fit: cover;
-    position: absolute;
-    top: 93px;
-    width: 136px;
-    border-radius: 20px;
-  }
-  
-  .index .iconeinsta {
-    height: 71px;
-    left: 142px;
-    object-fit: cover;
-    position: absolute;
-    top: 270px;
-    width: 91px;
-  }
-  
-  .index .iza {
-    height: 152px;
-    left: 125px;
-    object-fit: cover;
-    position: absolute;
-    top: 381px;
-    width: 136px;
-    border-radius: 20px;
-  }
-  
-  .index .img {
-    height: 71px;
-    left: 146px;
-    object-fit: cover;
-    position: absolute;
-    top: 550px;
-    width: 91px;
-  }
-  
-  .index .andre {
-    height: 152px;
-    left: 123px;
-    object-fit: cover;
-    position: absolute;
-    top: 661px;
-    width: 136px;
-    border-radius: 20px;
-  }
-  
-  .index .iconeinsta_2 {
-    height: 71px;
-    left: 145px;
-    object-fit: cover;
-    position: absolute;
-    top: 851px;
-    width: 91px;
-  }
-  
-  .index .icone_pyro_bot {
-    height: 33px;
-    left: 9px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 29px;
+
+  .card_criadores{
+    width: 237px;
   }
 }
 
 
 
-@media (min-width: 800px) {
+
+
+/* @media (min-width: 800px) {
   .mobile{
     display:none;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   .desktop{
     display:none;
   }
+} */
+
+
+@media (max-width: 1016px) {
+  
+  .index .imgsdenois{
+    flex-direction: column;
+    align-items: center;
+  }
+  .desktop .index{
+    height: auto;
+  }
 }
+
+@media (max-width: 530px) {
+ 
+ .desktop{
+  .index .text_wrapper_2{
+    font-size: 29px;
+  }
+
+  .index .iza {
+    height: 179px;
+    width: 187px;
+  }
+  
+  .index .sofia {
+    height: 179px;
+    width: 187px;
+  }
+  
+  .index .andre {
+    height: 179px;
+    width: 187px;
+  }
+
+  .index .containers{
+    display: flex;
+    width: 186px;
+  }
+
+  .containers h4{
+    font-size: 20px;
+  }
+
+  .card_criadores{
+    width:179px;
+  }
+ }
+
+} 

@@ -1,482 +1,519 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
   
-.desktop{
-  .index {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .index .div {
-    background-color: #ffffff;
-    height: 1163px;
-    overflow: hidden;
-    position: relative;
-    width: 1393px;
-  }
-  
-  .index .text_wrapper {
-    color: #5483bf;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 35px;
-    font-weight: 400;
-    left: 138px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 52px;
-    width: 193px;
-  }
-  
-  .index .icone_pyro_bot {
-    height: 100px;
-    left: 25px;
-    object-fit: cover;
-    position: absolute;
-    top: 3px;
-    width: 101px;
-  }
-  
-  .index .overlap {
-    background-color: #2949a6;
-    height: 904px;
-    left: 0;
-    position: absolute;
-    top: 120px;
-    width: 1440px;
-  }
-  
-  .index .text_wrapper_2 {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 55px;
-    font-weight: 400;
-    left: 138px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 122px;
-    width: 504px;
-  }
-  
-  .index .overlap_group {
-    height: 865px;
-    left: 126px;
-    position: absolute;
-    top: 39px;
-    width: 1267px;
-  }
-  
-  .index .p {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 239px;
-    width: 817px;
-  }
-  
-  .index .garotodeprograma {
-    height: 865px;
-    left: 583px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 684px;
-  }
-  
-  .index .text_wrapper_3 {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 126px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 595px;
-    width: 547px;
-  }
-  
-  .index .overlap_group_2 {
-    background-color: #73b2d9bf;
-    height: 139px;
-    left: -3px;
-    position: absolute;
-    top: 1024px;
-    width: 1396px;
-  }
-  
-  .index .div_wrapper {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 71px;
-    left: 0;
-    position: absolute;
-    top: 35px;
-    width: 240px;
-  }
-  
-  .index .text_wrapper_4 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 22px;
-    font-weight: 400;
-    left: 60px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 17px;
-    width: 121px;
-  }
-  
-  .index .overlap_2 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 71px;
-    left: 1151px;
-    position: absolute;
-    top: 35px;
-    width: 241px;
-  }
-  
-  .index .text_wrapper_5 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 22px;
-    font-weight: 400;
-    left: 46px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 16px;
-    white-space: nowrap;
-    width: 176px;
-  }
-  
-  .index .overlap_3 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 71px;
-    left: 866px;
-    position: absolute;
-    top: 35px;
-    width: 240px;
-  }
-  
-  .index .text_wrapper_6 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 22px;
-    font-weight: 400;
-    left: 64px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 17px;
-    width: 128px;
-  }
-  
-  .index .overlap_4 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 71px;
-    left: 576px;
-    position: absolute;
-    top: 35px;
-    width: 240px;
-  }
-  
-  .index .text_wrapper_7 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 22px;
-    font-weight: 400;
-    left: 11px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 16px;
-    width: 221px;
-  }
-  
-  .index .overlap_5 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 71px;
-    left: 286px;
-    position: absolute;
-    top: 32px;
-    width: 240px;
-  }
-  
-  .index .text_wrapper_8 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 22px;
-    font-weight: 400;
-    left: 35px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 18px;
-  }
+    .mobile{
+      /* .inicio {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      } */
+      
+      .inicio .div {
+        background-color: #ffffff;
+        height: 810px;
+        /* position: relative; */
+        /* width: 375px; */
+      }
+      
+      .tcc{
+        border-radius: 10px;
+        height: 95px;
+        margin: 20px 0;
+      }
 
-  .overlap_group_2 a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 22px;
-    font-style: 64px;
-    font-weight: 400;
-    white-space: nowrap;
-    /* by ajudinha do meubblinduuuuuuu/derick */
-  }
-}
+      .inicio p{
+        padding-bottom:25px;
+      }
+
+      /* .inicio .text_wrapper {
+        color: #5483bf;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 15px;
+        font-weight: 400;
+        left: 41px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 17px;
+        width: 80px;
+      } */
+      
+      .inicio .overlap {
+        /* background-color: #2949a6;
+        height: 633px;
+        left: 0;
+        /* position: absolute; */
+        /* top: 50px; */
+        /* width: 375px;  */
+        background-color: #2949a6;
+        height: 100%;
+        /* left: 0; */
+        /* top: 120px; */
+        /* width: 375px; */
+      }
+      
+      .inicio .text_wrapper_2 {
+        color: #ffffff;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 15px;
+        font-weight: 400;
+        /* left: 25px; */
+        letter-spacing: 1px;
+        /* position: absolute; */
+        margin:10px;
+        padding:25px;
+      }
+      
+      .inicio .overlap_group {
+        height: 323px;
+        /* left: 25px; */
+        /* position: absolute; */
+        /* top: 310px; */
+        width: 350px;
+      }
+      
+      /* .inicio .p {
+        color: #ffffff;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 15px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 0;
+        width: 234px;
+      } */
+      
+      /* .inicio .garotodeprograma {
+        height: 317px;
+        left: 72px;
+        object-fit: cover;
+        position: absolute;
+        top: 6px;
+        width: 278px;
+      } */
+      
+      /* .inicio .text_wrapper_3 {
+        color: #ffffff;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 15px;
+        font-weight: 400;
+        left: 24px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 125px;
+        width: 270px;
+      } */
+      
+      .inicio .icone_pyro_bot {
+        height: 33px;
+        /* left: 9px; */
+        /* object-fit: cover; */
+        /* position: absolute; */
+        /* top: 3px; */
+        width: 29px;
+      }
+      
+      .inicio .overlap_group_2 {
+        background-color: #73b2d9bf;
+        height: 127px;
+        /* left: 0; */
+        /* position: absolute; */
+        /* top: 683px; */
+        width: 375px;
+      }
+      
+      .inicio .div_wrapper {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 27px;
+        /* left: 24px; */
+        /* position: absolute; */
+        /* top: 18px; */
+        /* width: 94px; */
+      }
+      
+      .inicio .text_wrapper_4 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 8px;
+        font-weight: 400;
+        /* left: 20px; */
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 7px; */
+        width: 53px;
+      }
+      
+      .inicio .overlap_2 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 27px;
+        /* left: 24px; */
+        /* position: absolute; */
+        /* top: 63px; */
+        width: 94px;
+      }
+      
+      .inicio .text_wrapper_5 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 8px;
+        font-weight: 400;
+        /* left: 26px; */
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 7px; */
+        width: 41px;
+      }
+      
+      .inicio .overlap_3 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 27px;
+        /* left: 141px; */
+        /* position: absolute; */
+        /* top: 63px; */
+        width: 94px;
+      }
+      
+      .inicio .text_wrapper_6 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 8px;
+        font-weight: 400;
+        /* left: 18px; */
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 7px; */
+        width: 57px;
+      }
+      
+      .inicio .overlap_4 {
+        height: 27px;
+        /* left: 141px; */
+        /* position: absolute; */
+        /* top: 18px; */
+        /* width: 97px; */
+      }
+      
+      .inicio .rectangle {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 27px;
+        /* left: 0; */
+        /* position: absolute; */
+        /* top: 0; */
+        width: 94px;
+      }
+      
+      .inicio .quem_somos {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 8px;
+        font-weight: 400;
+        /* left: 12px; */
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 7px; */
+        width: 85px;
+      }
+      
+      .inicio .overlap_5 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 27px;
+        /* left: 258px; */
+        /* position: absolute; */
+        /* top: 18px; */
+        width: 94px;
+      }
+      
+      .inicio .text_wrapper_7 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 8px;
+        font-weight: 400;
+        /* left: 6px; */
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 7px; */
+        width: 82px;
+      }
+    
+    }
+  
+  
+    .desktop{
+      .index {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .index p{
+        padding-bottom:35px;
+      }
+      
+      .tcc{
+        border-radius: 10px;
+        height: 260px;
+        margin: -15px 0;
+      }
+
+      .index .div {
+        background-color: #ffffff;
+        height: 1163px;
+        overflow: hidden;
+        position: relative;
+        /* width: 1393px; */
+      }
+      
+      /* .index .text_wrapper {
+        color: #5483bf;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 35px;
+        font-weight: 400;
+        left: 138px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 52px;
+        width: 193px;
+      } */
+      
+      /* .index .icone_pyro_bot {
+        height: 100px;
+        left: 25px;
+        object-fit: cover;
+        position: absolute;
+        top: 3px;
+        width: 101px;
+      } */
+      
+      .index .overlap {
+        background-color: #2949a6;
+        height: 100%;
+        left: 0;
+        top: 120px;
+        /* width: 1440px; */
+      }
+      
+      .index .text_wrapper_2 {
+        color: #ffffff;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 30px;
+        font-weight: 400;
+        left: 138px;
+        letter-spacing: 0;
+        line-height: normal;
+        padding:55px;
+        /* position: absolute; */
+        /* top: 122px; */
+        /* width: 504px; */
+      }
+      
+      /* .index .overlap_group {
+        height: 865px;
+        left: 126px;
+        position: absolute;
+        top: 39px;
+        width: 1267px;
+
+      } */
+      
+      /* .index .p {
+        color: #ffffff;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 25px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 239px;
+        width: 817px;
+      } */
+      
+      /* .index .garotodeprograma {
+        height: 865px;
+        left: 583px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 684px;
+      } */
+      
+      /* .index .text_wrapper_3 {
+        color: #ffffff;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 25px;
+        font-weight: 400;
+        left: 126px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 595px;
+        width: 547px;
+      } */
+      
+       .index .overlap_group_2 {
+        background-color: #73b2d9bf;
+        height: 139px;
+        /* left: -3px; */
+        /* position: absolute; */
+        /* top: 1024px; */
+        width: 1396px;
+      } 
+      
+      /* .index .div_wrapper {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 71px;
+        left: 0;
+        position: absolute;
+        top: 35px;
+        width: 240px;
+      } */
+      
+      /* .index .text_wrapper_4 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 22px;
+        font-weight: 400;
+        left: 60px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 17px;
+        width: 121px;
+      } */
+      
+      /* .index .overlap_2 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 71px;
+        left: 1151px;
+        position: absolute;
+        top: 35px;
+        width: 241px;
+      }
+      
+      .index .text_wrapper_5 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 22px;
+        font-weight: 400;
+        left: 46px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 16px;
+        white-space: nowrap;
+        width: 176px;
+      } */
+      
+      /* .index .overlap_3 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 71px;
+        left: 866px;
+        position: absolute;
+        top: 35px;
+        width: 240px;
+      } */
+      
+      /* .index .text_wrapper_6 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 22px;
+        font-weight: 400;
+        left: 64px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 17px;
+        width: 128px;
+      } */
+      
+      /* .index .overlap_4 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 71px;
+        left: 576px;
+        /* position: absolute; */
+        /* top: 35px;
+        width: 240px;
+      }  */
+      
+      /* .index .text_wrapper_7 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 22px;
+        font-weight: 400;
+        left: 11px;
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 16px;
+        width: 221px;
+      }  */
+      
+      /* .index .overlap_5 {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        height: 71px;
+        left: 286px;
+        /* position: absolute; */
+        /* top: 32px;
+        width: 240px;
+      } */ 
+      
+      /* .index .text_wrapper_8 {
+        color: #000000;
+        font-family: "Dela Gothic One", Helvetica;
+        font-size: 22px;
+        font-weight: 400;
+        left: 35px;
+        letter-spacing: 0;
+        line-height: normal;
+        /* position: absolute; */
+        /* top: 18px;
+      }  */
+    
+      .overlap_group_2 a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 22px;
+        font-style: 64px;
+        font-weight: 400;
+        white-space: nowrap;
+        /* by ajudinha do meubblinduuuuuuu/derick */
+      }
+
+      .card_img{
+        padding-inline: 55px;
+        align-items: center;
+      }
+    }
+  
+    
+
+    
 
 
-.mobile{
-  .inicio {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .inicio .div {
-    background-color: #ffffff;
-    height: 810px;
-    position: relative;
-    width: 375px;
-  }
-  
-  .inicio .text_wrapper {
-    color: #5483bf;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 41px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 17px;
-    width: 80px;
-  }
-  
-  .inicio .overlap {
-    background-color: #2949a6;
-    height: 633px;
-    left: 0;
-    position: absolute;
-    top: 50px;
-    width: 375px;
-  }
-  
-  .inicio .text_wrapper_2 {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 25px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 65px;
-    width: 133px;
-  }
-  
-  .inicio .overlap_group {
-    height: 323px;
-    left: 25px;
-    position: absolute;
-    top: 310px;
-    width: 350px;
-  }
-  
-  .inicio .p {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    width: 234px;
-  }
-  
-  .inicio .garotodeprograma {
-    height: 317px;
-    left: 72px;
-    object-fit: cover;
-    position: absolute;
-    top: 6px;
-    width: 278px;
-  }
-  
-  .inicio .text_wrapper_3 {
-    color: #ffffff;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 125px;
-    width: 270px;
-  }
-  
-  .inicio .icone_pyro_bot {
-    height: 33px;
-    left: 9px;
-    object-fit: cover;
-    position: absolute;
-    top: 3px;
-    width: 29px;
-  }
-  
-  .inicio .overlap_group_2 {
-    background-color: #73b2d9bf;
-    height: 127px;
-    left: 0;
-    position: absolute;
-    top: 683px;
-    width: 375px;
-  }
-  
-  .inicio .div_wrapper {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 24px;
-    position: absolute;
-    top: 18px;
-    width: 94px;
-  }
-  
-  .inicio .text_wrapper_4 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 53px;
-  }
-  
-  .inicio .overlap_2 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 24px;
-    position: absolute;
-    top: 63px;
-    width: 94px;
-  }
-  
-  .inicio .text_wrapper_5 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 26px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 41px;
-  }
-  
-  .inicio .overlap_3 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 141px;
-    position: absolute;
-    top: 63px;
-    width: 94px;
-  }
-  
-  .inicio .text_wrapper_6 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 57px;
-  }
-  
-  .inicio .overlap_4 {
-    height: 27px;
-    left: 141px;
-    position: absolute;
-    top: 18px;
-    width: 97px;
-  }
-  
-  .inicio .rectangle {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 94px;
-  }
-  
-  .inicio .quem_somos {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 12px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 85px;
-  }
-  
-  .inicio .overlap_5 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 27px;
-    left: 258px;
-    position: absolute;
-    top: 18px;
-    width: 94px;
-  }
-  
-  .inicio .text_wrapper_7 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 8px;
-    font-weight: 400;
-    left: 6px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 82px;
-  }
 
-}
-  
+
 
 
   @media (min-width: 801px) {

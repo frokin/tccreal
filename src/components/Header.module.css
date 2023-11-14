@@ -1,0 +1,116 @@
+.header{
+    
+}
+
+.desktop{
+    display:none;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1rem;
+    /* bord  er: 1px solid #aaa ; */
+    
+    }
+
+.desktop_options{
+    display:flex;
+    gap:2rem; 
+}
+
+.menuzin{
+    border-radius:15px;
+    background-color:#73b2d9bf;
+    padding:5px 10px;
+}
+
+
+.botao_menu{
+    display: inline-block;
+    outline:none;
+    cursor:pointer;
+    background-color:transparent;
+    border:none;
+    color:black;
+    width:94px;
+    height:auto;
+}
+
+
+
+
+
+
+.menu_logo{
+    /* border: 1px solid #aaa ; */
+    display: flex;
+    justify-content: space-between;
+    height:4rem;
+    align-items:center;
+    padding-inline:1rem;
+}
+
+.mobile .menu{
+    display:flex;
+    padding:1rem;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    border-radius:5px;
+}
+
+.options{
+    z-index:1;
+    border-radius:10px;
+    /* border: 1px solid #aaa ; */
+    width: 10rem;
+    translate:-100%;
+    position:absolute;
+    background-color:#73b2d9bf;
+    transition: translate .3s;
+}
+
+.options nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.options.open{
+    translate:0;
+}
+
+.desktop .icone_pyro_bot{
+    width:110px;
+    height:auto;
+}
+
+.mobile .icone_pyro_bot{
+        width:48px;
+        height:auto;
+    }
+
+
+
+@media (min-width: 800px) {
+    .mobile{
+      display:none;
+    }
+    .desktop{
+        display:flex;
+    }
+  }
+  
+
+  @media (max-width: 930px) {
+    .desktop_options{
+        display:flex;
+        gap:1rem; 
+    }    
+    a {
+        font-size: 16px;
+    }
+  }
+  
+  
