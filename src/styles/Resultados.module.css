@@ -10,9 +10,27 @@
     justify-content: center;
     width: 100%;
   }
+
+  .index .videosa{
+    text-decoration:none;
+    color:black;
+    font-size:32px;
+    border-radius:5px;
+    justify-content:center;
+    display:flex;
+    color: #000000;
+    font-family: "Dela Gothic One", Helvetica;
+  }
   
-  .index .div {
+  .index .text_wrapper_3{
+    height:55px;
+    }
+
+  
+    .index .div {
     /* background-color: #ffffff; */
+    background-color: #2949a6;
+
     /* height: 3621px; */
     /* position: relative; */
     /* width: 1440px; */
@@ -42,24 +60,24 @@
   
   .index .overlap_group {
     background-color: #2949a6;
-    height: 3504px;
+    /* height: 3504px; */
     /* left: 0; */
     /* position: absolute; */
     /* top: 117px; */
-    width: 1440px;
+    /* width: 1440px; */
     padding:35px;
   }
 
   .index .card_img{
     display: flex;
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   
   .index .text_wrapper_2 {
     color: #000000;
     font-family: "Dela Gothic One", Helvetica;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: 400;
     text-align:center;
     margin: 55px 0 55px 0;
@@ -113,24 +131,24 @@
   .index .overlap {
     background-color: #73b2d9bf;
     border-radius: 30px;
-    height: 217px;
+    /* height: 217px; */
     /* left: 237px; */
     /* position: absolute; */
     /* top: 3207px; */
-    width: 967px;
+    /* width: 967px; */
   }
   
-  .index .text_wrapper_3 {
-    color: #000000;
-    font-family: "Dela Gothic One", Helvetica;
-    font-size: 65px;
-    font-weight: 400;
+  /* .index .text_wrapper_3 { */
+    /* color: #000000; */
+    /* font-family: "Dela Gothic One", Helvetica; */
+    /* font-size: 65px; */
+    /* font-weight: 400; */
     /* left: 348px; */
-    letter-spacing: 0;
-    line-height: normal;
+    /* letter-spacing: 0; */
+    /* line-height: normal; */
     /* position: absolute; */
     /* top: 61px; */
-  }
+  /* } */
   
   
   
@@ -142,11 +160,18 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
   }
   
+  .index .card_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .index .div {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #2949a6;
     height: 1155px;
     /* position: relative; */
     width: 375px;
@@ -166,22 +191,28 @@
   } */
   
   .index .overlap_group {
-    background-color: #2949a6;
-    height: 100%;
+    /* background-color: #2949a6; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%; */
     /* left: 0; */
     /* position: absolute; */
     /* top: 47px; */
-    width: 375px;
+    /* width: 375px; */
   }
   
   .index .text_wrapper_2 {
     color: #000000;
     font-family: "Dela Gothic One", Helvetica;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     /* left: 85px; */
     letter-spacing: 0;
+    text-align:center;
     line-height: normal;
+    margin-top:35px;
+    padding-bottom:35px;
     /* position: absolute; */
     /* top: 43px; */
   }
@@ -194,45 +225,56 @@
     /* top: 119px; */
     width: 258px;
     border-radius: 30px;
+    margin-top:22px;
   }
   
-  .index .img_2 {
+  /* .index .img_2 {
     height: 163px;
     /* left: 59px; */
-    object-fit: cover;
+    /* object-fit: cover; */
     /* position: absolute; */
     /* top: 335px; */
-    width: 258px;
-    border-radius: 30px;
-  }
+    /* width: 258px; */
+    /* border-radius: 30px;: */
+  } 
   
-  .index .imgdnv {
-    height: 163px;
+  /* .index .imgdnv { */
+    /* height: 163px; */
     /* left: 59px; */
-    object-fit: cover;
+    /* object-fit: cover; */
     /* position: absolute; */
     /* top: 551px; */
-    width: 258px;
-    border-radius: 30px;
-  }
+    /* width: 258px; */
+    /* border-radius: 30px; */
+  /* } */
   
-  .index .imgcaixapintada {
+  /* .index .imgcaixapintada { */
     /* left: 59px; */
     /* position: absolute; */
     /* top: 767px; */
-    border-radius: 30px;
-    width:  258px;
-    height: 163px ;
-  }
+    /* border-radius: 30px; */
+    /* width:  258px; */
+    /* height: 163px ; */
+  /* } */
   
+  .index .videosa{
+    text-decoration:none;
+    color:black;
+    font-size:26px;
+    border-radius:5px;
+    justify-content:center;
+    display:flex;
+}
+
   .index .overlap {
     background-color: #73b2d9bf;
     border-radius: 30px;
-    height: 95px;
+    /* height: 95px; */
     /* left: 59px; */
     /* position: absolute; */
     /* top: 983px; */
-    width: 258px;
+    width: 215px;
+    margin-top:22px;
   }
   
   .index .text_wrapper_3 {
@@ -257,7 +299,7 @@
   } */
   
   
-}
+/* } */
 
 
 @media (min-width: 800px) {

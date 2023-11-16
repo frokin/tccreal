@@ -1,121 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
-
+ 
 .desktop{
   .index {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #73b2d9bf;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    /* width: 100% */
   }
   
   .index .div {
-    background-color: #ffffff;
-    height: 1118px;
-    position: relative;
-    width: 1440px;
+    /* background-color: #ffffff; */
+    /* height: 1118px; */
+    /* background-color: #73b2d9bf; */
+    /* position: relative; */
+    /* width: 1440px; */
   }
   
-  .index .overlap {
-    height: 46px;
-    left: 138px;
-    position: absolute;
-    top: 49px;
-    width: 193px;
+
+  .index .textoeiconizin1{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    gap:4rem;
   }
+
+  .index .textoeiconizin2{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 35px;
+  }
+
+  .index .textoeiconizin3{
+    display:flex;
+    margin-bottom: 35px;
+    justify-content:center;
+  }
+  /* .index .overlap {
+    height: 46px; */
+    /* left: 138px; */
+    /* position: absolute; */
+    /* top: 49px; */
+    /* width: 193px; }*/
+  
   
   .index .text_wrapper {
     color: #5483bf;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 35px;
     font-weight: 400;
-    left: 0;
+    /* left: 0; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0; */
     width: 193px;
   }
   
-  .index .logod {
+  /* .index .logod { */
     /* background-image: url(https://cdn.animaapp.com/projects/6521ab18d9cb42a4b3df616b/releases/6521ac5d62f75e9352093c3e/img/iconepyrobot.png);
     background-position: 50% 50%; */
-    background-size: cover;
-    height: 100px;
-    left: 25px;
-    position: absolute;
-    top: 0;
-    width: 101px;
-  }
+    /* background-size: cover; */
+    /* height: 100px; */
+    /* left: 25px; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 101px;
+  } */
   
-  .index .icone_pyro_bot {
+  /* .index .icone_pyro_bot {
     /* height: 100px;
     left: 0;
     object-fit: cover;
     position: absolute;
     top: 0;
     width: 101px; */
-    left: 25px;
+    /* left: 25px;
     object-fit: cover;
     position: absolute;
     top: 3px;
     width: 101px;
-    height: 100px;
-  }
+    height: 100px; */
+  } 
   
   .index .overlap_2 {
-    height: 1001px;
-    left: 0;
-    position: absolute;
-    top: 117px;
-    width: 1440px;
+    /* height: 1001px; */
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 117px; */
+    /* width: 1440px; */
+    /* background-color: #73b2d9bf; */
   }
   
-  .index .rectangle {
-    background-color: #73b2d9bf;
-    height: 904px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1440px;
-  }
+  /* .index .rectangle { */
+    /* background-color: #73b2d9bf; */
+    /* height: 904px; */
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 1440px; */
+  /* } */
   
   .index .p {
     color: #000000;
     font-family: "Dela Gothic One", Helvetica;
     font-size: 45px;
     font-weight: 400;
-    left: 340px;
+    /* left: 340px; */
     letter-spacing: 0;
+    text-align:center;
     line-height: normal;
-    position: absolute;
-    top: 49px;
+    margin-top:60px;
+    /* position: absolute; */
+    /* top: 49px; */
   }
+
+  
   
   .index .iconezinmotivos {
     height: 62px;
-    left: 686px;
+    /* left: 686px; */
     object-fit: cover;
-    position: absolute;
-    top: 169px;
+    /* position: absolute; */
+    /* top: 169px; */
     width: 65px;
   }
   
   .index .img_2{
     height: 62px;
-    left: 323px;
+    /* left: 323px; */
     object-fit: cover;
-    position: absolute;
-    top: 169px;
+    /* position: absolute; */
+    /* top: 169px; */
     width: 55px;
   }
   
   .index .img {
     height: 62px;
-    left: 1029px;
+    /* left: 1029px; */
     object-fit: cover;
-    position: absolute;
-    top: 169px;
+    /* position: absolute; */
+    /* top: 169px; */
     width: 55px;
   }
   
@@ -124,11 +151,11 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 22px;
     font-weight: 400;
-    left: 626px;
+    /* left: 626px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 246px;
+    /* position: absolute; */
+    /* top: 246px; */
     width: 205px;
   }
   
@@ -137,12 +164,12 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 22px;
     font-weight: 400;
-    left: 949px;
+    /* left: 626px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 248px;
-    width: 290px;
+    /* position: absolute; */
+    /* top: 246px; */
+    width: 205px;
   }
   
   .index .detec_o_precisa {
@@ -150,33 +177,40 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 22px;
     font-weight: 400;
-    left: 235px;
+    /* left: 626px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 248px;
-    width: 289px;
+    /* position: absolute; */
+    /* top: 246px; */
+    width: 205px;
   }
   
-  .index .rectangle_2 {
+  /* .index .rectangle_2 {
     background-color: #2949a6;
-    height: 501px;
-    left: 0;
-    position: absolute;
-    top: 500px;
-    width: 1440px;
+    height: 501px; */
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 500px; */
+    /* width: 1440px;
+  } */
+
+  .index .pyroboteincrivel{
+    background-color: #2949a6;
+    padding:75px;
+    border-radius:60px;
   }
   
   .index .text_wrapper_2 {
     color: #ffffff;
+    /* background-color: #2949a6; */
     font-family: "Dela Gothic One", Helvetica;
     font-size: 35px;
     font-weight: 400;
-    left: 831px;
+    /* left: 831px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 580px;
+    /* position: absolute; */
+    /* top: 580px; */
     width: 516px;
   }
   
@@ -185,48 +219,48 @@
     font-family: "Dela Gothic One", Helvetica;
     font-size: 22px;
     font-weight: 400;
-    left: 831px;
+    /* left: 831px; */
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 764px;
+    /* position: absolute; */
+    /* top: 764px; */
     width: 516px;
   }
   
   .index .line {
     height: 278px;
-    left: 542px;
-    position: absolute;
-    top: 174px;
+    /* left: 542px; */
+    /* position: absolute; */
+    /* top: 174px; */
     width: 10px;
   }
   
   .index .line_2 {
     height: 278px;
-    left: 890px;
-    position: absolute;
-    top: 174px;
+    /* left: 890px; */
+    /* position: absolute; */
+    /* top: 174px; */
     width: 10px;
   }
   
   .index .iconezinmotivos_2 {
     height: 84px;
-    left: 323px;
+    /* left: 323px; */
     object-fit: cover;
-    position: absolute;
-    top: 147px;
+    /* position: absolute; */
+    /* top: 147px; */
     width: 85px;
   }
   
   .index .programadoraxinaisa {
     height: 501px;
-    left: 0;
+    /* left: 0; */
     object-fit: cover;
-    position: absolute;
-    top: 500px;
+    /* position: absolute; */
+    /* top: 500px; */
     width: 682px;
   }
-}
+
 
 .mobile{
   .index {
