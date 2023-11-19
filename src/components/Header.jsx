@@ -37,7 +37,9 @@ return(
           className={styles.icone_pyro_bot}
           alt="Icone pyro bot"
           src={Logo}
-        />    </div>
+        />    
+    </div>
+    
         <div className={`${styles.options} ${abrirMenu === true && styles.open}`}>
             <nav className="">
                 <Link className={styles.menuzin} to={"/Inicio"}>Inicio</Link>
@@ -61,7 +63,7 @@ return(
         </div>
         <div>
             <nav className={styles.desktop_options}>
-            <Link className={styles.menuzin} to={"/Inicio"}>Inicio</Link>
+                <Link className={styles.menuzin} to={"/Inicio"}>Inicio</Link>
                 <Link className={styles.menuzin} to={"/PyroBot"}>PyroBot</Link>
                 <Link className={styles.menuzin} to={"/Motivos"}>Motivos</Link>
                 <Link className={styles.menuzin} to={"/PecasdoProjeto"}>Peças do Projeto</Link>
