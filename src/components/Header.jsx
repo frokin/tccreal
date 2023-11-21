@@ -33,11 +33,13 @@ return(
             )
         }
         </button>
+        <Link to={"/Inicio"}>
         <img
-          className={styles.icone_pyro_bot}
-          alt="Icone pyro bot"
-          src={Logo}
-        />    
+            className={styles.icone_pyro_bot}
+            alt="Icone pyro bot"
+            src={Logo}
+        /> 
+        </Link>   
     </div>
     
         <div className={`${styles.options} ${abrirMenu === true && styles.open}`}>
@@ -55,11 +57,13 @@ return(
 
     <div className={styles.desktop}>
         <div>
+        <Link to={"/Inicio"}>
         <img
-          className={styles.icone_pyro_bot}
-          alt="Icone pyro bot"
-          src={Logo}
-        />
+            className={styles.icone_pyro_bot}
+            alt="Icone pyro bot"
+            src={Logo}
+        /> 
+        </Link>   
         </div>
         <div>
             <nav className={styles.desktop_options}>

@@ -302,12 +302,13 @@
 @media (max-width: 400px ) {
 
   .desktop .index .text_wrapper_2{
-    font-size:  14px;
+    margin-top: 20px;
+    font-size:  18px;
   }
 
 .desktop .index .img{
   height: auto;
-  /* left: 59px; */
+  /* left: 59px; */ 
   object-fit: cover;
   /* position: absolute; */
   /* top: 119px; */ 
